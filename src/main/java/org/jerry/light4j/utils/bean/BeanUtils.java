@@ -4,14 +4,14 @@ import java.lang.reflect.InvocationTargetException;
 import org.apache.commons.beanutils.PropertyUtils;
 
 /**
- * bean²Ù×÷¼¯(ÓÃÓÚ·´Éä½øĞĞÊôĞÔ²Ù×÷,¶ÔÏóclone)
+ * beanå·¥å…·é›†
  * @author jian
  *
  */
 public class BeanUtils {
 
 	/**
-	 * »ñÈ¡ÊµÌåÄÚ»ù±¾ÊôĞÔÖµ
+	 * å±æ€§è·å–
 	 * @param obj
 	 * @param propertyName
 	 * @return
@@ -24,7 +24,7 @@ public class BeanUtils {
 	}
 	
 	/**
-	 * ÉèÖÃÊµÌåÀàÊôĞÔ
+	 * å±æ€§è®¾ç½®
 	 * @param obj
 	 * @param propertyName
 	 * @param propertyValue
